@@ -1,0 +1,54 @@
+{
+  "locations": [
+    {
+      "powerFile": "power/toowoomba.json",
+      "id": "toowoomba",
+      "lon": 151.95,
+      "powerRequest": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX,T2M_MIN,T2M,PRECTOTCORR,ALLSKY_SFC_SW_DWN,RH2M,WS2M,TS&community=AG&longitude=151.95&latitude=-27.56&start=20160101&end=20251231&time-standard=LST&format=JSON",
+      "lgaCode": "36910",
+      "name": "Toowoomba",
+      "lat": -27.56
+    },
+    {
+      "powerFile": "power/dalby.json",
+      "id": "dalby",
+      "lon": 151.27,
+      "powerRequest": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX,T2M_MIN,T2M,PRECTOTCORR,ALLSKY_SFC_SW_DWN,RH2M,WS2M,TS&community=AG&longitude=151.27&latitude=-27.18&start=20160101&end=20251231&time-standard=LST&format=JSON",
+      "lgaCode": "37310",
+      "name": "Dalby",
+      "lat": -27.18
+    },
+    {
+      "powerFile": "power/warwick.json",
+      "id": "warwick",
+      "lon": 152.03,
+      "powerRequest": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX,T2M_MIN,T2M,PRECTOTCORR,ALLSKY_SFC_SW_DWN,RH2M,WS2M,TS&community=AG&longitude=152.03&latitude=-28.22&start=20160101&end=20251231&time-standard=LST&format=JSON",
+      "lgaCode": "36660",
+      "name": "Warwick",
+      "lat": -28.22
+    },
+    {
+      "powerFile": "power/goondiwindi.json",
+      "id": "goondiwindi",
+      "lon": 150.31,
+      "powerRequest": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M_MAX,T2M_MIN,T2M,PRECTOTCORR,ALLSKY_SFC_SW_DWN,RH2M,WS2M,TS&community=AG&longitude=150.31&latitude=-28.55&start=20160101&end=20251231&time-standard=LST&format=JSON",
+      "lgaCode": "33610",
+      "name": "Goondiwindi",
+      "lat": -28.55
+    }
+  ],
+  "boundaries": {
+    "request": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2025/LGA/MapServer/1/query?where=LGA_NAME_2025%20IN%20%28%27Toowoomba%27%2C%27Western%20Downs%27%2C%27Southern%20Downs%27%2C%27Goondiwindi%27%29&outFields=LGA_CODE_2025,LGA_NAME_2025&returnGeometry=true&outSR=4326&f=geojson",
+    "file": "pilot_lgas.geojson",
+    "license": "CC BY 4.0",
+    "source": "Australian Bureau of Statistics, ASGS 2025, generalised Local Government Areas"
+  },
+  "power": {
+    "spatialMethod": "Representative point sample, separate from the LGA boundary",
+    "end": "2025-12-31",
+    "source": "NASA POWER Daily API, AG",
+    "start": "2016-01-01",
+    "timeStandard": "LST"
+  },
+  "retrievedAtUtc": "2026-11-15T14:29:31Z"
+}

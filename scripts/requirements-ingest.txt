@@ -1,0 +1,4 @@
+# Optional raster preparation only; never needed by browser or npm build.
+numpy>=1.26
+rasterio>=1.3
+Pillow>=10

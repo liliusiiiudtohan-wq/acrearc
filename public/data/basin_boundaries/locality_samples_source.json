@@ -1,0 +1,6 @@
+{
+  "crs": "EPSG:4326",
+  "query": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2026/SAL/MapServer/1/query?where=SAL_NAME_2026%20IN%20%28%27Griffith%20%28NSW%29%27%2C%27Moree%27%2C%27Mildura%27%2C%27Goondiwindi%27%29&outFields=SAL_NAME_2026,SAL_CODE_2026,STATE_NAME_2026&returnGeometry=true&outSR=4326&f=geojson",
+  "source": "Australian Bureau of Statistics, 2026 generalized Suburbs and Localities",
+  "count": 4
+}

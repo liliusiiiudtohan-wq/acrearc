@@ -1,0 +1,13 @@
+{
+  "app": "Field Shift",
+  "version": "0.2.0",
+  "release": "v02",
+  "date": "2026-11-16",
+  "dataPack": "MDB-2026-11-15-v01",
+  "rules": "field-shift-rules/1.0.0",
+  "modes": [
+    "real",
+    "example"
+  ],
+  "status": "Working prototype; real satellite and field validation pending"
+}
