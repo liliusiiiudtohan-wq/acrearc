@@ -2,6 +2,8 @@
 
 A crop-rotation planning prototype for growers in Australia's Northern and Southern Murray–Darling Basin. It responds to [Field Shift: Adapting Farms with NASA Data](https://www.spaceappschallenge.org/2026/challenges/field-shift-adapting-farms-with-nasa-data/), the 2026 NASA Space Apps Challenge.
 
+**[Open the live AcreArc demo](https://fieldshifts.study/)**
+
 ## Try the prototype
 
 Use Node.js 24 and npm. Python 3.10 or newer is needed for the optional stand-alone data checks.
